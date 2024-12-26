@@ -81,7 +81,7 @@ const cards = [
         cardName: 'Decoration Light',
         cardImage: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTK-AoK2vxat531mEawWO0-mmbPNPd21SKrUF0hiPibwFOVKywe',
         cardPrice: 120,
-        soldout: false,
+        soldout: true,
         dicountPrice: 130,
     },
 ];
@@ -330,7 +330,6 @@ window.addEventListener('resize', () => {
     canvas.height = snowy.innerHeight;
 });
 
-// setInterval(animate, 15);
 animate()
 
 

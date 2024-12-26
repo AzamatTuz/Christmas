@@ -453,7 +453,7 @@ main {
     height: 15px;
     border: none;
     border-radius: 999px;
-    cursor: pointer;
+    cursor: progress;
     background: #ffffff;
 }
 
