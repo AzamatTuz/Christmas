@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 * {
     margin: 0;
@@ -11,8 +12,7 @@ html {
 }
 
 body {
-    background-size: contain;
-    background-repeat: no-repeat;
+    overflow-x: hidden;
     font-family: "Montserrat", serif;
 }
 
@@ -92,6 +92,7 @@ footer {
     background: #ff2929;
     color: white;
     overflow: hidden;
+    width: 100vw;
 }
 
 footer article {
@@ -399,4 +400,186 @@ main {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.staticSection {
+    width: 100vw;
+    background: url(https://wallpapers.com/images/hd/1920x1080-hd-christmas-a4w9iz29xd804afm.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.staticTrees {
+    width: 100%;
+    z-index: 5;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 900px;
+    margin-top: 50px;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 1300px;
+}
+
+.staticSection h2 {
+    color: #ffd900;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: -40px;
+}
+
+#phraseBtn1 {
+    background: #ff0000;
+}
+
+.phrase {
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    background: #ffffff;
+}
+
+.familyCard {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.familyImage {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.familySection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.readMoreBtn {
+    padding: 15px 30px;
+    border: #898989 solid 2px;
+    font-weight: 700;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 40px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.calendarCont {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+
+.calendarCont span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    -webkit-text-stroke: #fff 0.5px;
+    left: 12px;
+}
+
+.calendarCont h1 {
+    color: #ffa9a9cd;
+    margin: 0;
+    font-size: 50px;
+}
+
+.familyText {
+    color: #898989;
+}
+
+.discountImage {
+    width: 900px;
+    height: 500px;
+    margin-top: 90px;
+}
+
+.subscribeEmail {
+    width: 400px;
+    font-size: 20px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+}
+
+.subscribeCont {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin: 50px;
+}
+
+.subscribeCont article form {
+    border: #ffd900 5px solid;
+    border-radius: 25px;
+}
+
+.enterEmail {
+    border: none;
+    background: #c50000;
+    color: white;
+    padding: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.subscribeCont img {
+    width: 300px;
+}
+
+#snowy article {
+    position: absolute;
+    top: 25%;
+    left: 26%;
+
+}
+
+.christmasMainText {
+    font-family: "Dancing Script", serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.christmasText {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.christmasText a {
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.christmasText a:hover {
+    color: #ffd900;
 }
