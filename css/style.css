@@ -17,7 +17,7 @@ body {
 }
 
 .bgImage {
-    width: 98.92vw;
+    width: 100vw;
 }
 
 header {
@@ -582,4 +582,20 @@ main {
 
 .christmasText a:hover {
     color: #ffd900;
+}
+
+#arrowUp {
+    background: #ffa200;
+    border: none;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 90%;
+    left: 120%;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.5s all;
+    z-index: 50;
 }

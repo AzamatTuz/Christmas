@@ -329,3 +329,13 @@ window.addEventListener('resize', () => {
 
 // setInterval(animate, 15);
 animate()
+
+const arrowUp = document.getElementById('arrowUp');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 500) {
+        arrowUp.style.left = '95%'
+    } else {
+        arrowUp.style.left = '120%'
+    }
+})
