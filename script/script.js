@@ -1,4 +1,5 @@
 const header = document.getElementById('header');
+const arrowUp = document.getElementById('arrowUp');
 
 window.addEventListener('scroll', () => {
     if (window.scrollY > 150 && window.scrollY < 400) {
@@ -9,9 +10,11 @@ window.addEventListener('scroll', () => {
         header.style.background = '#ff0000'
         header.style.background = 'linear-gradient(-355deg, rgba(255,0,0,1) 35%, rgba(255,173,173,1) 120%)'
         header.style.transform = "translateY(0vh)"
+        arrowUp.style.left = '95%'
     } else {
         header.style.background = ""
         header.style.transform = "translateY(0vh)"
+        arrowUp.style.left = '120%'
     }
 })
 
@@ -330,12 +333,4 @@ window.addEventListener('resize', () => {
 // setInterval(animate, 15);
 animate()
 
-const arrowUp = document.getElementById('arrowUp');
 
-window.addEventListener('scroll', () => {
-    if (window.scrollY > 500) {
-        arrowUp.style.left = '95%'
-    } else {
-        arrowUp.style.left = '120%'
-    }
-})
