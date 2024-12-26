@@ -538,6 +538,7 @@ main {
 .subscribeCont article form {
     border: #ffd900 5px solid;
     border-radius: 25px;
+    border-top: #ffd900 2px solid;
 }
 
 .subscribeCont article {
@@ -566,7 +567,6 @@ main {
     position: absolute;
     top: 25%;
     left: 26%;
-
 }
 
 .christmasMainText {
